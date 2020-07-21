@@ -1,6 +1,9 @@
 # gsum
 GSum: A General Graph Summarization Framework by Finding Homogeneous Structures
 
+contact: jgyou@126.com
+
+# run
 The code works under Windows with Visual Studio or Cygwin with GCC, Mac OS X, Linux and other Unix variants with GCC. Make sure that a C++ compiler is installed on the system. Visual Studio project files and makefiles are provided. For makefiles, compile the code with “make all”. The code uses the SNAP (http://snap.stanford.edu/) as its base graph processing lib.
 
 Note: To visualize the result graph, GraphViz should be installed and the path should be set. Note that for some graphs with big number of nodes, GraphViz may result in the error of memory overflow. But it still works for not that big graphs.
