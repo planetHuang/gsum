@@ -14,7 +14,7 @@ Parameters:
 -k:Input the number k of node groups/clusters (default:2)  
 -o:Output file name prefix (default:'')  
 -v:Verbose (Whether print the intermediate info) (default:F)  
--m:Method. Choose a graph summary method, EN: Entropy-based summary; MDL: MDL-based summary; (default:'EN')  
+-m:Method. Choose a graph summary method, EN: Entropy-based summary; MDL: MDL-based summary. (default:'EN')  
 -sm:Submethod. Choose an entropy-based graph summary sub-method. E: by entropy; EG: by entropy gain; EGH:by entropy gain heap. (default:'EGH')  
 -cm:Choose initial coloring method. ByCnCom: Coloring graph by connected components; ByRandom: Coloring graph by random. (default:'ByCnCom')  
 -t:Output file type. 0:output node groups; 1:output type 0 + output summarized graph; 2:output type 1 + output entropy spectrum, reconstruction error; 3:output type 2 + output original graph with node group colored (default:1)  
@@ -40,8 +40,8 @@ $gsum -i:com-dblp.ungraph.txt -k:100 -rd:T -m:EN -sm:EGH
 $gsum -i:datasets\dblp2new.txt -k:100 -rd:T -m:EN -sm:EGH
 
 
-Note for some examples:
-MDLExample
+Note for some examples:  
+MDLExample  
 /* the nodes is 8, the edges is 11  
 1:  2 3 5 7 8  
 2:  3 1  
@@ -53,17 +53,12 @@ MDLExample
 8:  1 4 5 6  
 */  
 
-BPExample
-// int LeftNodes = 50, RightNodes = 100, Edges = 4000;
+BPExample  // int LeftNodes = 50, RightNodes = 100, Edges = 4000;
 
-CaveExample  
-// int LeftNodes = 10, MiddleNodes = 20, RightNodes = 30;  //diagonal block
+CaveExample  // int LeftNodes = 10, MiddleNodes = 20, RightNodes = 30;  //diagonal block
 
-bp2cave.txt  
-// the nodes is 140, the edges is 1430
+bp2cave.txt  // the nodes is 140, the edges is 1430
 
-email-Eu-core.txt  
-// the nodes is 1005, the edges is 25571
+email-Eu-core.txt  // the nodes is 1005, the edges is 25571
 
-com-dblp.ungraph.txt  
-// the nodes is 317080, the edges is 1049866
+com-dblp.ungraph.txt  // the nodes is 317080, the edges is 1049866
