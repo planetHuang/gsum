@@ -1,0 +1,23 @@
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3]
+  1 [style=filled, fillcolor="green"];
+  2 [style=filled, fillcolor="aquamarine3"];
+  3 [style=filled, fillcolor="red"];
+  4 [style=filled, fillcolor="blue"];
+  5 [style=filled, fillcolor="red"];
+  6 [style=filled, fillcolor="blue"];
+  7 [style=filled, fillcolor="red"];
+  8 [style=filled, fillcolor="red"];
+  1 -- 2;
+  1 -- 3;
+  1 -- 5;
+  1 -- 7;
+  1 -- 8;
+  2 -- 3;
+  4 -- 8;
+  5 -- 7;
+  5 -- 8;
+  6 -- 7;
+  6 -- 8;
+}

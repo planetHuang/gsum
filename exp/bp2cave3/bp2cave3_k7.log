@@ -1,0 +1,126 @@
+gsum -i:datasets/bp2cave3.txt -k:7 -v:T -rd:T -m:EN -sm:EGH
+The graph is loaded, the nodes is 140, the edges is 1430
+initialize coloring and matrix/data distribution...
+Total Entropy: 0.041950
+Bnz:
+0: [0,0]: 1000	[0,1]: 0	[0,2]: 0	[0,3]: 0	[0,4]: 0	[0,5]: 0	[0,6]: 0	
+1: [1,0]: 0	[1,1]: 900	[1,2]: 0	[1,3]: 0	[1,4]: 0	[1,5]: 0	[1,6]: 0	
+2: [2,0]: 0	[2,1]: 0	[2,2]: 400	[2,3]: 0	[2,4]: 0	[2,5]: 0	[2,6]: 0	
+3: [3,0]: 0	[3,1]: 0	[3,2]: 0	[3,3]: 400	[3,4]: 0	[3,5]: 0	[3,6]: 0	
+4: [4,0]: 0	[4,1]: 0	[4,2]: 0	[4,3]: 0	[4,4]: 100	[4,5]: 0	[4,6]: 0	
+5: [5,0]: 0	[5,1]: 0	[5,2]: 0	[5,3]: 0	[5,4]: 0	[5,5]: 0	[5,6]: 0	
+6: [6,0]: 0	[6,1]: 0	[6,2]: 0	[6,3]: 0	[6,4]: 0	[6,5]: 0	[6,6]: 0	
+Ben:
+0: [0,0]: 0.030612	[0,1]: 0.000000	[0,2]: 0.000000	[0,3]: 0.000000	[0,4]: 0.000000	[0,5]: 0.000000	[0,6]: 0.000000	
+1: [1,0]: 0.000000	[1,1]: 0.000000	[1,2]: 0.000000	[1,3]: 0.000000	[1,4]: 0.000000	[1,5]: 0.000000	[1,6]: 0.000000	
+2: [2,0]: 0.000000	[2,1]: 0.000000	[2,2]: 0.011338	[2,3]: 0.000000	[2,4]: 0.000000	[2,5]: 0.000000	[2,6]: 0.000000	
+3: [3,0]: 0.000000	[3,1]: 0.000000	[3,2]: 0.000000	[3,3]: 0.000000	[3,4]: 0.000000	[3,5]: 0.000000	[3,6]: 0.000000	
+4: [4,0]: 0.000000	[4,1]: 0.000000	[4,2]: 0.000000	[4,3]: 0.000000	[4,4]: 0.000000	[4,5]: 0.000000	[4,6]: 0.000000	
+5: [5,0]: 0.000000	[5,1]: 0.000000	[5,2]: 0.000000	[5,3]: 0.000000	[5,4]: 0.000000	[5,5]: 0.000000	[5,6]: 0.000000	
+6: [6,0]: 0.000000	[6,1]: 0.000000	[6,2]: 0.000000	[6,3]: 0.000000	[6,4]: 0.000000	[6,5]: 0.000000	[6,6]: 0.000000	
+Colors: 
+0: 0	
+1: 1	
+2: 2	
+3: 3	
+4: 4	
+NIdColor:140, ColorNIds:5
+
+The initializing time is: 3.513
+
+Color -> NIds: 
+0: 100	101	102	103	104	105	106	107	108	109	110	111	112	113	114	115	116	117	118	119	120	121	122	123	124	125	126	127	128	129	130	131	132	133	134	135	136	137	138	139	140	141	142	143	144	145	146	147	148	149	
+1: 1030	1031	1032	1033	1034	1035	1036	1037	1038	1039	1040	1041	1042	1043	1044	1045	1046	1047	1048	1049	1050	1051	1052	1053	1054	1055	1056	1057	1058	1059	
+2: 0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	
+3: 1010	1011	1012	1013	1014	1015	1016	1017	1018	1019	1020	1021	1022	1023	1024	1025	1026	1027	1028	1029	
+4: 1000	1001	1002	1003	1004	1005	1006	1007	1008	1009	
+(TotalEnt, Color#): (0.030612, 0) with the size 50: 
+the node 100 is shuffled from 0 to 5 with maximum entropy gain 0.000127
+the node 101 is shuffled from 0 to 5 with maximum entropy gain 0.000149
+the node 102 is shuffled from 0 to 5 with maximum entropy gain 0.000137
+the node 103 is shuffled from 0 to 5 with maximum entropy gain 0.000341
+the node 104 is shuffled from 0 to 5 with maximum entropy gain 0.000256
+the node 105 is shuffled from 0 to 5 with maximum entropy gain 0.000368
+the node 106 is shuffled from 0 to 5 with maximum entropy gain 0.000399
+the node 107 is shuffled from 0 to 5 with maximum entropy gain 0.000323
+the node 108 is shuffled from 0 to 5 with maximum entropy gain 0.000559
+the node 109 is shuffled from 0 to 5 with maximum entropy gain 0.000600
+the node 110 is shuffled from 0 to 5 with maximum entropy gain 0.000974
+the node 111 is shuffled from 0 to 5 with maximum entropy gain 0.001074
+the node 112 is shuffled from 0 to 5 with maximum entropy gain 0.001257
+the node 113 is shuffled from 0 to 5 with maximum entropy gain 0.001467
+the node 114 is shuffled from 0 to 5 with maximum entropy gain 0.001289
+the node 115 is shuffled from 0 to 5 with maximum entropy gain 0.001821
+the node 116 is shuffled from 0 to 5 with maximum entropy gain 0.001983
+the node 117 is shuffled from 0 to 5 with maximum entropy gain 0.002562
+the node 118 is shuffled from 0 to 5 with maximum entropy gain 0.002820
+the node 119 is shuffled from 0 to 5 with maximum entropy gain 0.003602
+the node 120 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 121 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 122 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 123 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 124 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 125 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 126 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 127 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 128 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 129 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 130 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 131 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 132 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 133 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 134 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 135 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 136 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 137 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 138 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 139 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 140 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 141 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 142 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 143 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 144 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 145 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 146 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 147 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 148 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+the node 149 is shuffled from 0 to 0 with maximum entropy gain 0.000000
+(TotalEnt, Color#): (0.011338, 2) with the size 30: 
+the node 0 is shuffled from 2 to 6 with maximum entropy gain 0.000200
+the node 1 is shuffled from 2 to 6 with maximum entropy gain 0.000310
+the node 2 is shuffled from 2 to 6 with maximum entropy gain 0.000443
+the node 3 is shuffled from 2 to 6 with maximum entropy gain 0.000605
+the node 4 is shuffled from 2 to 6 with maximum entropy gain 0.000802
+the node 5 is shuffled from 2 to 6 with maximum entropy gain 0.001043
+the node 6 is shuffled from 2 to 6 with maximum entropy gain 0.001340
+the node 7 is shuffled from 2 to 6 with maximum entropy gain 0.001706
+the node 8 is shuffled from 2 to 6 with maximum entropy gain 0.002161
+the node 9 is shuffled from 2 to 6 with maximum entropy gain 0.002730
+the node 10 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 11 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 12 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 13 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 14 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 15 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 16 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 17 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 18 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 19 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 20 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 21 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 22 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 23 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 24 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 25 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 26 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 27 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 28 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+the node 29 is shuffled from 2 to 2 with maximum entropy gain 0.000000
+(TotalEnt, Color#): (0.008503, 0) with the size 50: 
+The summarization time is: 98.175
+
+run time: 01m38s (12:05:59)
+writing the results into files...
+done!
+
+total run time (including output result time): 01m39s (12:06:01)
