@@ -1,0 +1,7 @@
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3]
+  0 [style=filled, fillcolor="green"];
+  1 [style=filled, fillcolor="green"];
+  2 [style=filled, fillcolor="blue"];
+}
