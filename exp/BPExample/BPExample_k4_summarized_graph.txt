@@ -1,2 +1,0 @@
-# NodeId	NodeId
-  0	1
